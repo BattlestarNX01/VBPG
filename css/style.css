@@ -1,0 +1,77 @@
+body{
+    background-color: #3B3B3B;
+    color: white;
+    font-size: 20px;
+}
+
+h1 {text-shadow: 2px 2px #000000;}
+
+h2 {margin: 10px;}
+
+.textbox {
+    font-family: 'Inconsolata', monospace;
+    border: 5px outset whitesmoke;
+    background-color: #616161;
+    text-align: center;
+    color: whitesmoke;
+    width: 700px;
+    height: 600px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+input[type=text]{
+    font-family: 'Inconsolata', monospace;
+    width: 500px;
+    height: 25px;
+    border: 5px double black;
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.lable{
+    font-size: 30px;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+hr {
+  border: 5px outset whitesmoke;
+  border-radius: 10px;
+}
+
+.settings {
+    font-size: 50px;
+}
+
+button{
+    background-color: lightgray;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 5px;
+    width: 120px;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: black;
+    border: 2px solid whitesmoke;
+    color: whitesmoke
+}
+
+.btn-large{
+    background-color: slategray;
+    width: 500px;
+}
